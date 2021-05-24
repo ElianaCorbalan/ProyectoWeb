@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Crimson Text', serif;
+}
+
+.main_conteiner {
+  background: rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+}
+
+.body-home {
+  background-image: url("../imagenes/fondo2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background-color: #240404;
+  color: #e7dcd5;
+  font-size: 1.5em;
+}
+
+.navbar .navbar__btn {
+  color: #cccfd1;
+  background-color: #383838;
+  border: 1px solid;
+}
+
+.navbar .navbar__btn:hover {
+  color: #111111;
+}
+
+.main__header {
+  background-image: url("../imagenes/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: auto;
+  height: 30em;
+}
+
+.main__header .main__header__title {
+  margin-top: 0.6em;
+  font-size: 6em;
+  color: #925e5e;
+  text-decoration: underline;
+}
+
+.main__header .main_header_subtitle {
+  font-size: 4em;
+  color: #b67e7e;
+}
+
+.parrafo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  color: #e7dcd5;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.parrafo .parrafo__col {
+  grid: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.parrafo .parrafo__col--titulo {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 2em;
+}
+
+.parrafo .parrafo__col--contenido {
+  font-size: 2em;
+}
+
+.img__inicio {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2 1fr);
+  grid-gap: 10px;
+  place-items: center;
+}
+
+.img__inicio .img__inicio--item {
+  width: 98%;
+  height: 75%;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+
+.footer {
+  background-color: #240404;
+  color: #e7dcd5;
+}
+
+.footer .footer__email h4 {
+  text-align: center;
+}
+
+.footer .footer__contacto a {
+  text-align: center;
+  text-decoration: none;
+  color: #e7dcd5;
+  display: block;
+  font-size: 1rem;
+  padding: 2em;
+}
+
+.body-productos {
+  background-image: url("../imagenes/productos.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.main .main__productos {
+  text-align: center;
+  color: #e7dcd5;
+}
+
+.main .main__productos--titulo {
+  font-size: 6em;
+  margin-top: .5em;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main .main__productos--subTittulo {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.navbar {
+  background-color: #240404;
+  color: #e7dcd5;
+  font-size: 1.5em;
+}
+
+.navbar .navbar__btn {
+  color: #cccfd1;
+  background-color: #383838;
+  border: 1px solid;
+}
+
+.navbar .navbar__btn:hover {
+  color: #111111;
+}
+
+.galeria {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  grid-gap: 10px;
+}
+
+.galeria img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.galeria img:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.galeria .item:nth-child(4) {
+  -ms-grid-column: span 2;
+      grid-column-start: span 2;
+}
+
+.galeria .item:nth-child(5) {
+  -ms-grid-row: span 2;
+      grid-row-start: span 2;
+}
+
+.table {
+  background-color: #cfcccc;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th, .table td {
+  padding: 20px;
+}
+
+.table thead {
+  font-size: medium;
+  background-color: #240808;
+  border-bottom: solid 5px;
+  color: ghostwhite;
+}
+
+.table tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.table tr:hover td {
+  background-color: #885252;
+  color: black;
+}
+
+.body-galeria {
+  background-image: url("../imagenes/productos.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background-color: #240404;
+  color: #e7dcd5;
+  font-size: 1.5em;
+}
+
+.navbar .navbar__btn {
+  color: #cccfd1;
+  background-color: #383838;
+  border: 1px solid;
+}
+
+.navbar .navbar__btn:hover {
+  color: #111111;
+}
+
+.carousel-inner {
+  height: calc( 500px + 3em);
+  width: 100%;
+  margin: 1em auto;
+  border: 1px solid #555;
+  position: relative;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: opacity 3s;
+  transition: opacity 3s;
+}
+
+.title {
+  font-size: 6em;
+  color: #e7dcd5;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.seccionRecetas {
+  background: rgba(45, 58, 58, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 30px;
+  border: 1px solid #9c9999;
+}
+
+.seccionRecetas .seccionRecetas__form {
+  background-color: #777474;
+  color: #535352;
+  width: 50%;
+  padding-left: 20px;
+}
+
+.seccionRecetas .seccionRecetas__comentarios {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+@media (max-width: 576px) {
+  .main {
+    font-size: .6em;
+  }
+  .main__productos {
+    font-size: .4em;
+  }
+  .title {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__productos {
+    font-size: .5em;
+  }
+  .title {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 992px) {
+  .main__productos {
+    width: 100%;
+    font-size: .8em;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

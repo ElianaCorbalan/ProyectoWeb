@@ -1,0 +1,89 @@
+.body-home {
+    background-image:url("../imagenes/fondo2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: $colorNabvar;
+    color: $white;
+    font-size: $fs-Nav;
+    .navbar__btn {
+        color: #cccfd1;
+        background-color: rgb(56, 56, 56);
+        border: 1px solid;
+    }
+    .navbar__btn:hover {
+        color: rgb(17, 17, 17);
+    }
+}
+.main__header {
+    background-image:url("../imagenes/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    margin-top: auto;
+    height: 30em;
+    .main__header__title {
+        margin-top: 0.6em;
+        font-size: $fs-Titulos;
+        color:rgb(146, 94, 94);
+        text-decoration: underline;
+    }
+    .main_header_subtitle {
+        font-size: $fs-SubTitulos;
+        color:rgb(182, 126, 126);
+    }
+}
+
+.parrafo {
+    display: flex;
+    text-align: center;
+    color: $white;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    .parrafo__col{
+        grid: row;
+        align-items: flex-start;
+    }
+    .parrafo__col--titulo {
+        text-decoration: underline;
+        text-align: center;
+        font-size: 2em;
+    }
+    .parrafo__col--contenido{
+        font-size: 2em;
+    }
+}
+
+.img__inicio {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-gap: 10px;
+    place-items: center;
+
+    .img__inicio--item {
+        width: 98%;
+        height: 75%;
+        border-radius: 10px;
+        margin-bottom:2em;
+    }
+}
+
+.footer {
+    background-color: $colorFooter;
+    color: $white;
+    .footer__email h4 {
+        text-align: center;
+    }
+    .footer__contacto a {
+        text-align: center;
+        text-decoration: none;
+        color: $white;
+        display: block;
+        font-size: 1rem;
+        padding: 2em;
+    }
+}

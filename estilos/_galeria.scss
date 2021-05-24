@@ -1,0 +1,72 @@
+.body-galeria {
+    background-image:url("../imagenes/productos.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: $colorNabvar;
+    color: $white;
+    font-size: $fs-Nav;
+    .navbar__btn {
+        color: #cccfd1;
+        background-color: rgb(56, 56, 56);
+        border: 1px solid;
+    }
+    .navbar__btn:hover {
+        color: rgb(17, 17, 17);
+    }
+}
+
+.carousel-inner {
+    height: calc( 500px + 3em);
+    width: 100%;
+    margin:1em auto;
+    border: 1px solid #555;
+    position: relative; 
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.title {    
+    font-size: $fs-Titulos;
+    color: $white;
+    animation-duration: 5s;
+    animation-name: aparecer;   
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
+
+.seccionRecetas {
+    background: rgba(45, 58, 58, 0.7);
+    display: flex;
+    flex-flow: row wrap;
+    margin: 30px;
+    border: 1px solid rgb(156, 153, 153);
+
+    .seccionRecetas__form{
+        background-color:rgb(119, 116, 116);
+        color:rgb(83, 83, 82);
+        width: 50%;
+        padding-left: 20px;
+} 
+    .seccionRecetas__comentarios {
+        margin-top: $margin-top;
+        margin-bottom: $margin-bottom;
+    }
+}

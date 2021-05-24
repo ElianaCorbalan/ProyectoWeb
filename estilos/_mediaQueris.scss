@@ -1,0 +1,31 @@
+// Small devices 
+@media (max-width: 576px) { 
+    .main{
+        font-size: .6em;
+    }
+    .main__productos {
+        font-size: .4em;
+    }
+    .title {
+        font-size: 3em;
+    }
+}
+
+// Medium devices 
+@media (max-width: 768px) { 
+    .main__productos {
+        font-size: .5em;
+    }
+    .title {
+        font-size: 2em;
+    }
+}
+
+// Large devices 
+@media (max-width: 992px) { 
+    .main__productos{
+        width: 100%;
+        font-size: .8em;
+    }
+}
+
