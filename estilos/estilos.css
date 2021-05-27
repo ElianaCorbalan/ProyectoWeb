@@ -21,7 +21,7 @@
 }
 
 .navbar {
-  background-color: #240404;
+  background-color: #975b77;
   color: #e7dcd5;
   font-size: 1.5em;
 }
@@ -48,13 +48,13 @@
 .main__header .main__header__title {
   margin-top: 0.6em;
   font-size: 6em;
-  color: #925e5e;
+  color: #85375b;
   text-decoration: underline;
 }
 
 .main__header .main_header_subtitle {
   font-size: 4em;
-  color: #b67e7e;
+  color: #85375b;
 }
 
 .parrafo {
@@ -101,8 +101,9 @@
 }
 
 .footer {
-  background-color: #240404;
+  background-color: #975b77;
   color: #e7dcd5;
+  margin-top: 15em;
 }
 
 .footer .footer__email h4 {
@@ -127,7 +128,7 @@
 }
 
 .main {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(82, 80, 80, 0.7);
 }
 
 .main .main__productos {
@@ -168,7 +169,7 @@
 }
 
 .navbar {
-  background-color: #240404;
+  background-color: #975b77;
   color: #e7dcd5;
   font-size: 1.5em;
 }
@@ -229,7 +230,7 @@
 
 .table thead {
   font-size: medium;
-  background-color: #240808;
+  background-color: #a03b5d;
   border-bottom: solid 5px;
   color: ghostwhite;
 }
@@ -239,7 +240,7 @@
 }
 
 .table tr:hover td {
-  background-color: #885252;
+  background-color: #994e67;
   color: black;
 }
 
@@ -252,7 +253,7 @@
 }
 
 .navbar {
-  background-color: #240404;
+  background-color: #975b77;
   color: #e7dcd5;
   font-size: 1.5em;
 }

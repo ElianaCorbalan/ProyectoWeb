@@ -29,12 +29,12 @@
     .main__header__title {
         margin-top: 0.6em;
         font-size: $fs-Titulos;
-        color:rgb(146, 94, 94);
+        color:rgb(133, 55, 91);
         text-decoration: underline;
     }
     .main_header_subtitle {
         font-size: $fs-SubTitulos;
-        color:rgb(182, 126, 126);
+        color:rgb(133, 55, 91);
     }
 }
 
@@ -75,6 +75,7 @@
 .footer {
     background-color: $colorFooter;
     color: $white;
+    margin-top: 15em;
     .footer__email h4 {
         text-align: center;
     }

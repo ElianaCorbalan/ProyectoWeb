@@ -1,0 +1,23 @@
+{
+  "name": "bakery",
+  "version": "1.0.0",
+  "description": "Sitio web destinado a la promocioin de productos de panaderia.Creado como proyecto para CODER HOUSE",
+  "main": "index.html",
+  "scripts": {
+    "css": "node-sass -o estilos/css src/estilos"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElianaCorbalan/ProyectoWeb.git"
+  },
+  "keywords": ["Sabri's Bakery", "panaderia", "reposteria", "pastel", "torta", "muffins", "delivery de tortas", "envios panaderia", "promociones de reposteria", "combos", "recetas", "calidad de productos", "dulces"],
+  "author": "Eliana Corbalan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElianaCorbalan/ProyectoWeb/issues"
+  },
+  "homepage": "https://github.com/ElianaCorbalan/ProyectoWeb#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
