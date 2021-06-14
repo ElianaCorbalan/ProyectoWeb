@@ -1,13 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
-
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Oswald', sans-serif;
 }
-.main_conteiner {
+.main_contenedor {
     background:rgba(0, 0, 0, 0.7);
-    margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+    background:rgb(209, 9, 102);
+    border-radius: 10px;
+}
+
+.texto-pink {
+	font-weight: 100;
+	color: rgb(209, 9, 102);
+}
+.texto-blanco {
+	font-weight: 600;
+	color: #fff;
+}
+.texto-negro {
+	color: #000;
 }

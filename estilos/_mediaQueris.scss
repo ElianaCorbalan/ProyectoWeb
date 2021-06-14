@@ -1,31 +1,123 @@
-// Small devices 
-@media (max-width: 576px) { 
-    .main{
-        font-size: .6em;
+
+@media screen and (max-width: 768px) {
+    .nav {
+        padding: 5px;
     }
-    .main__productos {
-        font-size: .4em;
+
+    .nav .nav li, .nav a {
+        display: inline-block;
+        margin: 6px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-size: 14px;
+        color: #c2c2c2;
     }
-    .title {
-        font-size: 3em;
+    
+    .titulo {
+        font-size: 50px;
+    }
+    .subtitulo {
+        font-size: 20px;
+    }
+    .row {
+        display: inline;
+    }
+    .suscripcion .texto-pink{
+        font-size: 16px;
+    }
+    .footer {
+        .redes-sociales a {
+        width: 70px;
+        height: 70px;
+        }
+        .texto-pink {
+            font-size: 24px;
+        }
+        .footer-suscripcion {
+            display: inline;
+        }
     }
 }
 
-// Medium devices 
-@media (max-width: 768px) { 
-    .main__productos {
-        font-size: .5em;
+@media screen and (max-width: 576px) {
+    .nav .nav li, 
+    .nav .nav a {
+        display: inline-block;
+        margin: 5px;
+        padding: 0;
+        font-size: 16px;
     }
-    .title {
-        font-size: 2em;
+
+    .contenedor-titulo .titulo{
+        font-size: 40px;
+    }
+
+    .subtitulo .texto-blanco{
+        font-size: 25px;
+    }
+
+    .nuestrosProductos .texto {
+        font-size: 20px;
+    }
+    .sobreNosotros_contenido .texto {
+        font-size: 20px;
+    }
+
+    .footer {
+    .texto-pink {
+        font-size: 20px;
+    }
+    .suscripcion .texto-pink {
+        font-size: 20px;
+    }
+    .redes-sociales a{
+        width: 60px;
+        height: 60px;
+    }
+    .redes-sociales a i {
+        font-size: 30px;
     }
 }
-
-// Large devices 
-@media (max-width: 992px) { 
-    .main__productos{
-        width: 100%;
-        font-size: .8em;
-    }
 }
 
+@media screen and (max-width: 360px) {
+    .nav .nav li, 
+    .nav .nav a {
+        display: inline-block;
+        margin: 5px;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .contenedor-titulo .titulo{
+        font-size: 40px;
+    }
+
+    .subtitulo .texto-blanco{
+        font-size: 25px;
+    }
+    
+    .sobreNosotros .sobreNosotros_contenido .bienvenidos h4 {
+        font-size: 20px;
+    }
+
+    .sobreNosotros .sobreNosotros_contenido .texto {
+        font-size: 20px;
+    }
+    .nuestrosProductos .texto {
+        font-size: 20px;
+    }
+    .footer {
+        .footer .texto-pink {
+            font-size: 18px;
+        }
+        .footer .suscripcion .texto-pink {
+            font-size: 18px;
+        }
+        .footer .redes-sociales a i {
+            font-size: 30px;
+        }
+    }
+    
+}
