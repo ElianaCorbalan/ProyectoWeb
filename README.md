@@ -4,7 +4,7 @@ El objetivo era maquetar un sitio web desde 0
  🚀
  
 Construido con 🛠️<br />
-Html5/Sass <br />
+Html/Sass <br />
 Bootstrap  <br />
-JavasCript <br />
+JavaScript <br />
 
